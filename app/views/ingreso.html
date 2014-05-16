@@ -1,0 +1,21 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#/animales/">Animales</a></li>
+    <li><a ng-href="#/empleos/">Empleos</a></li>
+    <li><a ng-href="#/ingreso/">Login</a></li>
+  </ul>
+  <h3 class="text-muted">Lista Animales y Empleos</h3>
+</div>
+
+
+<h1>Ingreso con tu Usuairo</h1>
+
+<div ng-controller="IngresousuarioCtrl">
+	<form>
+		<p>Correo:</p> <input type="email" placeholder="ingresa tu correo" ng-model="usuarios.email">
+		<p>Password:</p> <input type="password" placeholder="ingresa tu passwd" ng-model="usuarios.password"> <br> <br>
+		<button type="submit" class="btn btn-primary">Enviar</button>
+	</form>	
+</div>
+
